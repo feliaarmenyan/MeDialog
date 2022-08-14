@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">MeDialog</string>
+
+    <string name="book1"><a href="https://media.am/wp-content/plugins/pdfjs-viewer-shortcode/pdfjs/web/viewer.php?file=https://media.am/wp-content/uploads/2022/05/Mfa-flayer.pdf&amp;dButton=true&amp;pButton=true&amp;oButton=false&amp;v=1.5.1%23zoom=auto">ՄԵԴԻԱԳՐԱԳԵՏ ՔԱՂԱՔԱՑՈՒ ՈՒՂԵՑՈՒՅՑ</a>
+     \n \n<a href="https://media.am/hy/lab/2020/03/13/17887/">Մեդիագրագիտության ձեռնարկներ դասավանդողների համար</a>
+    \n \n<a href="https://old-lib.armedu.am/resource/2432">Մեդիագրագիտության ձեռնարկ ուսուցիչների համար</a>
+   \n \n
+        <a href="https://soundcloud.com/restart-gyumri/1a-2">Մեդիագրագիտություն</a></string>
+
+    <string name="media_literacy"><a href="https://all-digital.org/wp-content/uploads/2021/03/Media-Literacy-Booklet-Emedia-Project-Final-ENG-1.pdf">Media literacy</a></string>
+    <string name="media_literal_design_manual"><a href="https://www.state.gov/wp-content/uploads/2022/08/Media-Literacy-Design-Manual-FINAL.pdf">MEDIA LITERACY DESIGN MANUAL</a></string>
+    <string name="media_literacy_teaching_manual"><a href="http://www.alaska-ipc.org/documents/media_literacy_manual.pdf">Media Literacy Teaching Manual</a></string>
+    <string name="guide_media_literacy"><a href="https://mediaeducationlab.com/sites/default/files/Field%2520Guide%2520to%2520Media%2520Literacy%2520_0.pdf">A Field Guide to Media Literacy Education in the United States</a></string>
+    <string name="protect_yourself"><a href="https://www.irex.org/sites/default/files/pdf/citizen-media-literacy-project-trainer-manual.pdf">Protect Yourself From The Flood Of Information</a></string>
+    <string name="literacy"><a href="https://www.medialit.org/sites/default/files/01a_mlkorientation_rev2_0.pdf">LITERACY for the 21st Century</a></string>
+    <string name="media_literacy_thinking"><a href="https://depts.washington.edu/nwmedia/sections/nw_center/curriculum_docs/teach_combine.pdf">Media Literacy Through Critical Thinking</a></string>
+    <string name="media_literacy_rus"><a href="https://www.mediasabak.org/media/3f1921fa-9f7b-46a6-b110-c08809510337.pdf">МЕДИАГРАМОТНОСТЬ</a></string>
+    <string name="media_literacy_how_live"><a href="https://dshi-lesnoy.ekb.muzkult.ru/media/2018/12/10/1211832516/metodicheskoe_posobie_mediagramotnost_1-41.pdf">МЕДИАГРАМОТНОСТЬ(Как жить в медиамире)</a></string>
+    <string name="media_education"><a href="https://www.mediagram.ru/netcat_files/108/110/h_eeb1101786a4523d0a2cdb2f01e962a0">МЕДИАОБРАЗОВАНИЕ И МЕДИАГРАМОТНОСТЬ</a></string>
+
+</resources>

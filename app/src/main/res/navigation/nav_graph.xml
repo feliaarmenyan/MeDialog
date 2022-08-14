@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/HomeFragment">
+
+    <fragment
+        android:id="@+id/HomeFragment"
+        android:name="com.example.medialog.fragments.home.HomeFragment">
+
+        <action
+            android:id="@+id/action_HomeFragment_toImageWithTextFragment"
+            app:destination="@id/ImageWithTextFragment"
+            app:enterAnim="@anim/slide_in_left"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_right"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_HomeFragment_to_NewListFragment"
+            app:destination="@id/NewListFragment"
+            app:enterAnim="@anim/slide_in_left"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_right"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_HomeFragment_to_VideoListFragment"
+            app:destination="@id/VideoListFragment"
+            app:enterAnim="@anim/slide_in_left"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_right"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_HomeFragment_to_AboutFragment"
+            app:destination="@id/AboutFragment"
+            app:enterAnim="@anim/slide_in_left"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_right"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_HomeFragment_to_onlineBook"
+            app:destination="@id/onlineBook"
+            app:enterAnim="@anim/slide_in_left"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_right"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_HomeFragment_to_quizGamesList"
+            app:destination="@id/quizGamesList"
+            app:enterAnim="@anim/slide_in_left"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_right"
+            app:popExitAnim="@anim/slide_out_right" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/ImageWithTextFragment"
+        android:name="com.example.medialog.fragments.newslist.ImageWithTextFragment" >
+        <argument
+            android:name="news"
+            app:argType="com.example.medialog.fragments.newslist.News" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/VideoListFragment"
+        android:name="com.example.medialog.fragments.video.VideoListFragment">
+        <action
+            android:id="@+id/action_VideoListFragment_to_VideoWithYoutubeFragment"
+            app:destination="@id/VideoWithYoutubeFragment"
+            app:enterAnim="@anim/slide_in_left"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_right"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/VideoWithYoutubeFragment"
+        android:name="com.example.medialog.fragments.video.VideoWithYoutubeFragment">
+        <argument
+            android:name="video"
+            app:argType="com.example.medialog.fragments.video.Video" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/NewListFragment"
+        android:name="com.example.medialog.fragments.newslist.NewListFragment">
+        <action
+            android:id="@+id/action_NewListFragment_to_ImageWithTextFragment"
+            app:destination="@id/ImageWithTextFragment"
+            app:enterAnim="@anim/slide_in_left"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_right"
+            app:popExitAnim="@anim/slide_out_right" />
+        <argument
+            android:name="isNews"
+            app:argType="boolean" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/AboutFragment"
+        android:name="com.example.medialog.fragments.about.AboutFragment" />
+    <fragment
+        android:id="@+id/onlineBook"
+        android:name="com.example.medialog.fragments.onlinebooks.OnlineBook"
+        android:label="OnlineBook" />
+    <fragment
+        android:id="@+id/quizGamesList"
+        android:name="com.example.medialog.fragments.quizgames.QuizGamesList"
+        android:label="QuizGamesList" >
+        <action
+            android:id="@+id/action_quizGamesList_to_quizItem"
+            app:destination="@id/quizItem"
+            app:enterAnim="@anim/slide_in_left"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_right"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+<fragment
+        android:id="@+id/quizItem"
+        android:name="com.example.medialog.fragments.quizgames.QuizItem"
+        android:label="QuizGamesList" >
+    <argument
+        android:name="QuizNumber"
+        app:argType="integer" />
+</fragment>
+
+</navigation>

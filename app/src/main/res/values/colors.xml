@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#6570AC</color>
+    <color name="purple_700">#8393E8</color>
+    <color name="teal_200">#7785D0</color>
+    <color name="teal_700">#4C5595</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name = "online_book">#6570AC</color>
+    <color name = "video_lessons">#6570AC</color>
+    <color name = "text_lessons">#6570AC</color>
+    <color name = "test_exercise">#6570AC</color>
+    <color name = "quiz_game">#6570AC</color>
+    <color name = "media_news">#6570AC</color>
+    <color name = "about">#6570AC</color>
+
+    <color name="home_item_bg">#fff</color>
+</resources>
